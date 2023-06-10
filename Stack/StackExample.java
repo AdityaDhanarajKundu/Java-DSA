@@ -40,7 +40,11 @@ public class StackExample{
             Object s2= it.next();
             System.out.println(s2);
         }
+        System.out.println();
+        System.out.println(s1.size());//prints the size of the stack
+        //sorting the stack elements using the sort method.
+        s1.sort(null);
+        System.out.println(s1);
 
-        
     }
 }
