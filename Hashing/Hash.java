@@ -13,6 +13,7 @@ public class Hash {
         // for each loop
         for (String i : data) {
             System.out.println(student.get(i));
+            System.out.println(i.hashCode());
         }
         // creating an entry set
         Set<Map.Entry<String, Integer>> data1 = student.entrySet();
